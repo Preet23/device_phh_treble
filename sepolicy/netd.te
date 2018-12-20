@@ -1,0 +1,3 @@
+# I auditd  : type=1400 audit(0.0:176): avc: denied { sys_admin } for comm="iptables-restor" capability=21 scontext=u:r:netd:s0 tcontext=u:r:netd:s0 tclass=capability permissive=0
+
+allow netd self:capability {sys_admin};
